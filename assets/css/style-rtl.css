@@ -1015,7 +1015,7 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
+  width: 130px;
   border-radius: 50%;
   float: right;
   border: 5px solid rgba(255, 255, 255, 0.2);
@@ -1023,6 +1023,7 @@ section {
 
 .menu .menu-content {
   margin-right: 85px;
+  margin-top: 50px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1068,6 +1069,15 @@ section {
   padding: 0 10px;
   font-weight: 600;
   color: #cda45e;
+}
+
+.menu .menu-content p {
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color:  white;
 }
 
 .menu .menu-ingredients {
