@@ -1,8 +1,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: GE SS;
+  src: url(/assets/fonts/GE_SS_Two_Medium-1.otf);
+}
+.font{
+  font-family: "GE SS", sans-serif; 
+}
+
+
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "GE SS", sans-serif; 
   background: #0c0b09;
   color: #fff;
 }
@@ -207,6 +217,7 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  
 }
 
 #header .logo a {
@@ -486,8 +497,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 50vh;
+  background: url("../img/event-private.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -725,7 +736,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "GE SS", sans-serif;
 }
 
 .section-title h2::after {
@@ -742,8 +753,13 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   color: #cda45e;
+}
+
+#section-a{
+  
+  color: #e2e2e2;
 }
 
 /*--------------------------------------------------------------
@@ -1874,4 +1890,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.phonecolor{
+  color: #fff;
+}
+
+#phonecolor2{
+  color:#bab3a6;
+}
+
+.logo-img{
+  height: 70px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
 }
