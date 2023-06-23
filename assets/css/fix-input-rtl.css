@@ -1,0 +1,6 @@
+[type=email],
+[type=number],
+[type=tel],
+[type=url] {
+    direction: rtl
+}
