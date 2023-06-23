@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: ysabeau;
+  src: url(/assets/fonts/YsabeauInfant-Italic-VariableFont_wght.ttf);
+}
+.font{
+  font-family: "GE SS", sans-serif; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
@@ -205,8 +213,8 @@ h6 {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-family: "ysabeau", sans-serif;
 }
 
 #header .logo a {
@@ -958,7 +966,6 @@ section {
 .why-us .box:hover p {
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -991,7 +998,7 @@ section {
 }
 
 .menu #menu-flters li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .menu .menu-item {
@@ -999,14 +1006,15 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
+  width: 130px;
   border-radius: 50%;
-  float: left;
+  float: right;
   border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu .menu-content {
-  margin-left: 85px;
+  margin-right: 85px;
+  margin-top: 50px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1022,8 +1030,8 @@ section {
     "...................................................................."
     "....................................................................";
   position: absolute;
-  left: 20px;
-  right: 0;
+  right: 20px;
+  left: 0;
   top: -4px;
   z-index: 1;
   color: #bab3a6;
@@ -1031,7 +1039,7 @@ section {
 }
 
 .menu .menu-content a {
-  padding-right: 10px;
+  padding-left: 10px;
   background: #1a1814;
   position: relative;
   z-index: 3;
@@ -1054,14 +1062,22 @@ section {
   color: #cda45e;
 }
 
+.menu .menu-content p {
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color:  white;
+}
+
 .menu .menu-ingredients {
-  margin-left: 85px;
+  margin-right: 85px;
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
-
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
@@ -1720,7 +1736,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: black;
-  padding: 0 0 30px 0;
+  padding: 10%;
   color: #fff;
   font-size: 14px;
 }
@@ -1729,7 +1745,7 @@ section {
   background: #0c0b09;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
-  padding: 60px 0 30px 0;
+  padding: 10px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1874,4 +1890,24 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.phonecolor{
+  color: #fff;
+}
+
+#phonecolor2{
+  color:#bab3a6;
+}
+
+.logo-img{
+  height: 70px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+#section-a{
+  
+  color: #e2e2e2;
 }
