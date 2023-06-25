@@ -285,7 +285,7 @@ section {
   }
 
   .menu-img {
-    width: 70px;
+    width: 130px;
     border-radius: 50%;
     float: left;
     border: 5px solid rgba(white, .2);
@@ -293,6 +293,7 @@ section {
 
   .menu-content {
     margin-left: 85px;
+    margin-top: 50px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -332,12 +333,21 @@ section {
       font-weight: 600;
       color: $primary;
     }
+
+    p {
+      background: $secondary;
+      position: relative;
+      z-index: 3;
+      padding: 0 10px;
+      font-weight: 600;
+      color:  white;
+    }
   }
 
   .menu-ingredients {
     margin-left: 85px;
     font-style: italic;
-    font-size: 14px;
+    font-size: 10px;
     font-family: $font-secondary;
     color: rgba(white, .5);
   }
@@ -591,6 +601,20 @@ section {
       border-radius: 50px;
       &:hover {
         background: lighten($primary, 5);
+      }
+    }
+
+    a{
+      &.button{
+        background: $primary;
+        border: 0;
+        padding: 10px 35px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+        &:hover {
+          background: lighten($primary, 5);
+        }
       }
     }
   
