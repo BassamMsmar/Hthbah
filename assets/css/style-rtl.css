@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #e1b339;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #d9ba85;
+  color: #e1b339;
 }
 
 #topbar .contact-info i span {
@@ -302,7 +302,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9ba85;
+  color: #e1b339;
 }
 
 .navbar .dropdown ul {
