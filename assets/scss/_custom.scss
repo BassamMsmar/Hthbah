@@ -35,13 +35,19 @@
   height: 100%;
   background: rgba(darken($secondary, 5), 0.6);
   position: fixed;
+  cursor: pointer;
   top: 0;
   left: 0;
   z-index: 999;
 }
+.img-show {
+  border-radius: 5%;
+}
 .show .img-show {
-  width: 400px;
-  height: 400px;
+  width: 90vmin;
+  height: 90vmin;
+  max-width: 800px;
+  max-height: 800px;
   background: white;
   position: fixed;
   top: 50%;

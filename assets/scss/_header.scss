@@ -2,13 +2,15 @@
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
+  background: darken($secondary, 5);
   height: 40px;
+  padding: 24px 0;
   font-size: 14px;
   transition: all 0.5s;
   z-index: 996;
 
   &.topbar-scrolled {
-    top: -40px;
+    top: -48px;
   }
 
   .contact-info {
@@ -20,11 +22,31 @@
         padding-left: 5px;
         color: #fff;
       }
-
     }
   }
 
-  .languages{
+  .social-links {
+    a {
+      font-size: 18px;
+      display: inline-block;
+      background: lighten($secondary, 5);
+      color: $white;
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+      &:hover {
+        background: $primary;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  .languages {
     ul {
       display: flex;
       flex-wrap: wrap;
@@ -36,15 +58,15 @@
       a {
         color: white;
       }
-  
+
       li + li {
         padding-left: 10px;
       }
-  
+
       li + li::before {
         display: inline-block;
         padding-right: 10px;
-        color: rgba(white, .5);
+        color: rgba(white, 0.5);
         content: "/";
       }
     }
@@ -55,16 +77,16 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(darken($secondary, 5), .6);
-  border-bottom: 1px solid rgba(darken($secondary, 5), .6);
+  background: rgba(darken($secondary, 5), 0.6);
+  border-bottom: 1px solid rgba(darken($secondary, 5), 0.6);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  top: 48px;
 
   &.header-scrolled {
     top: 0;
-    background: rgba(darken($secondary, 15), .85);
+    background: rgba(darken($secondary, 15), 0.85);
     border-bottom: 1px solid lighten($secondary, 10);
   }
 

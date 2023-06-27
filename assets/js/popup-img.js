@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     popupImages.forEach(function (popupImage) {
         popupImage.addEventListener("click", function () {
             var src = popupImage.getAttribute("src");
+            src = src.replace('/menu/', '/menu-org/')
             show.style.display = "block";
             show.classList.add('active');
             imgShow.setAttribute("src", src);
