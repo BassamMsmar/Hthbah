@@ -1094,6 +1094,13 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.menu .menu-ingredients-tea {
+  margin-right: 85px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "GE SS Two Medium", "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
