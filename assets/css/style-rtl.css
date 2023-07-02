@@ -741,7 +741,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -1992,4 +1992,10 @@ section {
   background: #ceced0;
   top: 0;
   right: 0;
+}
+#our-service{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  
 }
