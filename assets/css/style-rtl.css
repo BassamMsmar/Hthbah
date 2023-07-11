@@ -1,8 +1,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* tajawal font */
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
 body {
-  font-family: "GE SS Two Medium", "Open Sans", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   background: #2c392e;
   color: #fff;
 }
@@ -23,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "GE SS Two Medium", "Playfair Display", serif;
+  font-family: 'El Messiri', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -543,7 +548,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "GE SS Two Medium", "Poppins", sans-serif;
+  font-family: "el messiri" !important;
 }
 
 #hero h1 span {
