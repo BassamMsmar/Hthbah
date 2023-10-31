@@ -1,0 +1,66 @@
+.logo-img {
+  height: 70px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+// #section-a {
+//   color: #e2e2e2;
+// }
+
+// .phonecolor {
+//   color: #fff;
+// }
+
+// #phonecolor2 {
+//   color: #bab3a6; //$gray
+// }
+
+.popup img {
+  cursor: pointer;
+}
+.show {
+  z-index: 999;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.show.active {
+  display: block;
+  opacity: 1;
+}
+.show .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(darken($secondary, 5), 0.6);
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.img-show {
+  border-radius: 5%;
+}
+.show .img-show {
+  width: 90vmin;
+  height: 90vmin;
+  max-width: 800px;
+  max-height: 800px;
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.img-show img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
