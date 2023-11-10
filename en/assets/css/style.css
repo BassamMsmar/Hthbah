@@ -1036,6 +1036,7 @@ section {
 
 .menu .menu-content {
   margin-left: 85px;
+  text-transform: capitalize;
   margin-top: 50px;
   overflow: hidden;
   display: -webkit-box;
